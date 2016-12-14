@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'posts/like'
+
+  get 'posts/dislike'
+
   get 'comments/destroy'
 
   get 'comments/create'
